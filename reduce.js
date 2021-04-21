@@ -10,7 +10,7 @@ function extractValue(arr, key) {
     return arr.reduce(function(accumulator, nextKey) {
         accumulator.push(nextKey[key]);
         return accumulator
-    }, [])
+    }, []);
 }
 
 /*
